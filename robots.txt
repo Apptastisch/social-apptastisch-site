@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /impressum
+Disallow: /impressum.html
+Disallow: /datenschutz
+Disallow: /datenschutz.html
+Disallow: /pages/impressum/
+Disallow: /pages/datenschutz/
+Allow: /
