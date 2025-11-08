@@ -8,8 +8,11 @@ title: Impressum
 ## Angaben gemäß § 5 TMG
 
 Fabian Dieckhoff – Apptastisch
+
 Inhaber: Fabian Dieckhoff 
+
 Gniddenborg 18
+
 28870 Ottersberg
 
 ## Kontakt
