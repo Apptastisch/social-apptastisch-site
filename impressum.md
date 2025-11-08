@@ -7,19 +7,21 @@ title: Impressum
 
 ## Angaben gemäß § 5 TMG
 
-[Name des Betreibers]  
-[Straße und Hausnummer]  
-[PLZ und Ort]
+Fabian Dieckhoff – Apptastisch
+Inhaber: Fabian Dieckhoff 
+Gniddenborg 18
+28870 Ottersberg
 
 ## Kontakt
 
-E-Mail: [E-Mail-Adresse]  
-Telefon: [Telefonnummer] (optional)
+E-Mail: kontakt@apptastisch.app
+
+## Umsatzsteuer-ID
+USt-IdNr.: Wird nachgereicht
 
 ## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
 
-[Name]  
-[Adresse]
+Fabian Dieckhoff, Anschrift wie oben
 
 ## Haftungsausschluss
 
