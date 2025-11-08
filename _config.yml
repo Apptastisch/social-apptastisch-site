@@ -1,0 +1,12 @@
+# Jekyll configuration for GitHub Pages
+title: Social Apptastisch
+description: Amazon Affiliate Links
+baseurl: ""
+url: "https://apptastisch.github.io"
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Collections and defaults
+permalink: pretty
