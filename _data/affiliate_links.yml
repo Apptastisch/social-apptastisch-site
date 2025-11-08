@@ -1,0 +1,11 @@
+# Amazon Affiliate Links
+# Add your affiliate links here with title and url
+
+- title: "Beispielprodukt 1"
+  url: "https://www.amazon.de/dp/EXAMPLE1?tag=youraffid-21"
+
+- title: "Beispielprodukt 2"
+  url: "https://www.amazon.de/dp/EXAMPLE2?tag=youraffid-21"
+
+- title: "Beispielprodukt 3"
+  url: "https://www.amazon.de/dp/EXAMPLE3?tag=youraffid-21"
