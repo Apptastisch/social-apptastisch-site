@@ -1,9 +1,49 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="{{ page.lang | default: site.lang | default: 'de' }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title | default: site.title }}</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    {% seo %}
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+    
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "{{ site.title }}",
+      "url": "{{ site.url }}{{ site.baseurl }}",
+      "description": "{{ site.description }}",
+      "inLanguage": "de-DE",
+      "publisher": {
+        "@type": "Person",
+        "name": "{{ site.author }}"
+      }
+    }
+    </script>
+    
+    {% if page.url == "/" or page.url == "/index.html" %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Amazon Produktempfehlungen",
+      "description": "Kuratierte Liste von Amazon Produktempfehlungen",
+      "itemListElement": [
+        {% for link in site.data.affiliate_links %}
+        {
+          "@type": "ListItem",
+          "position": {{ forloop.index }},
+          "name": "{{ link.title }}",
+          "url": "{{ link.url }}"
+        }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ]
+    }
+    </script>
+    {% endif %}
+    
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;

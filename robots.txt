@@ -6,3 +6,5 @@ Disallow: /datenschutz.html
 Disallow: /pages/impressum/
 Disallow: /pages/datenschutz/
 Allow: /
+
+Sitemap: https://apptastisch.github.io/sitemap.xml

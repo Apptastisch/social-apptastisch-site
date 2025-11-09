@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Impressum
+description: Impressum und rechtliche Angaben von Social Apptastisch
+robots: noindex, nofollow
+lang: de
 ---
 
 # Impressum
