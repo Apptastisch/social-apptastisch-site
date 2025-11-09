@@ -1,12 +1,34 @@
 # Jekyll configuration for GitHub Pages
 title: Social Apptastisch
-description: Amazon Affiliate Links
+description: Amazon Affiliate Links - Empfehlungen für Technik, Hardware und mehr
 baseurl: ""
 url: "https://apptastisch.github.io"
+
+# SEO settings
+lang: de
+locale: de_DE
+author: Fabian Dieckhoff
+
+# Social profiles for SEO
+social:
+  name: Apptastisch
+  links: []
 
 # Build settings
 markdown: kramdown
 theme: minima
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
 
 # Collections and defaults
 permalink: pretty
+
+# SEO tag defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/og-image.png
+      lang: de

@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Amazon Empfehlungen
+description: Entdecken Sie unsere kuratierten Amazon Produktempfehlungen für Technik, Hardware und mehr. Hochwertige Produkte für PC-Bau, Gaming und Wohnkomfort.
+keywords: Amazon Empfehlungen, Technik, Hardware, PC Komponenten, Gaming, Produktempfehlungen
+lang: de
 ---
 
 # Amazon Empfehlungen
