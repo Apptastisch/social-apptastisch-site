@@ -15,3 +15,5 @@ title: Amazon Empfehlungen
   </li>
 {% endfor %}
 </ul>
+
+<p class="affiliate-disclosure">Als Amazon-Partner verdiene ich an qualifizierten Verkäufen.</p>
