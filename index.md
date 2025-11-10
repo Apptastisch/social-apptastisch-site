@@ -11,7 +11,7 @@ lang: de
 <ul class="affiliate-links">
 {% for link in site.data.affiliate_links %}
   <li>
-    <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer nofollow">
+    <a href="{{ link.url }}" target="_blank" rel="noopener nofollow">
       <span class="amazon-badge">Amazon</span>
       {{ link.title }}
     </a>
